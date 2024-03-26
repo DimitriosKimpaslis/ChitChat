@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.darkScrollbar {
+  scrollbar-color: #3a3a3a #212121;
+  scrollbar-width: thin;
+}
+
+.ligthScrollbar {
+  scrollbar-color: #c9c9c9 #f1f1f1 ;
+  scrollbar-width: thin;
+}
+
+.hover-dark-text-color:hover p {
+  color: #000;
+}
+
+.hover-active-contact-dark-text p {
+  color: #000;
+}
